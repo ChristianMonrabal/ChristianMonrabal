@@ -1,7 +1,7 @@
 Hi My name is Christian Monrabal
 ========================================================================================================================================
 
-👨🏿‍💻 Software Engineer 
+👨🏿‍💻 Software Engineer Student
 --------------------------
 
 I am best known as a Techie 👨🏿‍💻 who eats Software for breakfast, lunch, and dinner. I have been hiding all along somewhere far away in the galaxy but I'm back on earth. On my return, I landed in Nigeria. Since my arrival, my mission has been to build people by harnessing the power of data and technology to improve their lives and make them maximize their potential. 
