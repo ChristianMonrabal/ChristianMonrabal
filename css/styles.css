@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Code+Pro:wght@300&display=swap');
+html{
+    font-size: 16px;
+}
+
+
+/**************************/
+
+/* clases predefinidas */
+* {
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body{
+    margin: 0;
+}
+
+h1 {text-align: center;}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Diseño de columnas */
+.column-1{
+    width: 100%;
+    float: left;
+}
+
+.column-2{
+    width: 50%;
+    float: left;
+}
+
+.column-3{
+    width: 33.33%;
+    float: left;
+}
+
+.column-4{
+    width: 25%;
+    float: left;
+}
+
+.column-5{
+    width: 20%;
+    float: left;
+}
+
+.column-6{
+    width: 16.66%;
+    float: left;
+}
+
+.column-75{
+    width: 75%;
+    float: left;
+}
+
+/* Header */
+
+.header {
+    height: 100vh;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 50px;
+}
+
+/* Apartado sobre mi */
+
+#imgperfil {
+    height: 80vh;
+    width: 60%;
+    padding-bottom: 15%;
+}
+
+.infopersonal {
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 3%;
+}
+
+/* Habilidades */
+
+.asix {
+    text-align: center;
+    padding: 5%;
+}
+
+.daw {
+    text-align: center;
+    padding: 5%;
+}
+
+.iconos {
+    height: 30px;
+    width: 30px;
+}
+
+/* Proyectos Github */
+
+#Proyectos {
+    text-align: center;
+}
+
+.imgproyectos {
+    height: 50vh;
+    width: 92.5%;
+    padding: 5%;
+    padding-left: 12%;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+/* Contacto */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.contacto {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.contactos {
+    text-align: center;
+    padding-left: 45%;
+}
+
+/* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}  
+
+.active {
+    opacity: 1;
+    transition: opacity 3s ease-in-out;
+}  
+
+@media only screen and (max-width: 600px) {
+    /* column-2 pasará de tener 50% a 100% */
+    .column-2{
+        width: 100%;
+    }
+    /* column-3 pasará de tener 33.33% a 100% */
+    .column-3{
+        width: 100%;
+    }
+    /* column-4 pasará de tener 25% a 50% */
+    .column-4{
+        width: 50%;
+    }
+}
